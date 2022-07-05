@@ -1,0 +1,184 @@
+body {
+  font-family: -apple-system, Cascadia Code;
+  margin: 0;
+  padding: 0;
+}
+#msg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#body2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#body {
+  width: 100%;
+  height: 1500px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+#item1 {
+  padding: 0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 10em;
+  background-color: rgb(113, 113, 113);
+  border: 2px solid black;
+}
+#item2 {
+  padding: 0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 10em;
+  background-color: rgb(113, 113, 113);
+  border: 2px solid black;
+}
+#item3 {
+  padding: 0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 10em;
+  background-color: rgb(113, 113, 113);
+  border: 2px solid black;
+}
+#paneer1 {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+#paneer2 {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+#paneern {
+  width: 30%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(221, 145, 154);
+  border: 2px solid black;
+  border-top: none;
+}
+#paneerdish {
+  padding: 5px;
+  text-align: justify;
+}
+#kheer1 {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+#kheer2 {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+#kheern {
+  width: 30%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(244, 240, 144);
+  border: 2px solid black;
+  border-top: none;
+}
+#kheerdish {
+  padding: 5px;
+  text-align: justify;
+}
+#aaloo1 {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+#aaloo2 {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+#aaloon {
+  width: 30%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(215, 93, 93);
+  border: 2px solid black;
+  border-top: none;
+}
+#aaloodish {
+  padding: 5px;
+  text-align: justify;
+}
+/*768px and 991px tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* it perform the action when minimum width will be 800px*/
+  #body2 {
+    flex-wrap: wrap;
+    
+  }
+  #item3 {
+    width: 100%;
+  }
+
+  #item1,
+  #item2 {
+    width: 45%;
+    height: 50%;
+  }
+}
+/*mobile view less than 767px*/
+@media (min-width: 0px) and (max-width: 767px) {
+  #body2 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  #item1,
+  #item2,
+  #item3 {
+    width: 100%;
+  }
+}
